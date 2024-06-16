@@ -1,17 +1,20 @@
 # C++ Learning Journey
 
-Welcome to my C++ learning journey repository! This repository documents my journey in learning C++ from the basics to object-oriented programming. Whether you're a beginner or looking to brush up on your skills, I hope you find this repository helpful and insightful.
+Welcome to my C++ learning journey repository! This repository contains examples and explanations for learning C++ programming journey.
 
-## Contents
+## Table of Contents
 
-- **Basics:** Variables, data types, operators, control structures.
-- **Functions:** Function declarations, definitions, parameters, return types.
-- **Arrays and Pointers:** Working with arrays, pointers, and dynamic memory allocation.
-- **Object-Oriented Programming (OOP):** Classes, objects, inheritance, polymorphism.
-- **Advanced Topics:** Templates, exceptions, file I/O.
-- **Exercises:** Hands-on exercises to reinforce learning.
-- **Resources:** Links to tutorials, articles, and books that helped me in my learning journey.
+1. [C++ Basics](#cpp-basics)
+2. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+3. [License](#license)
 
-## Structure
+## C++ Basics
 
-The repository is organized into folders corresponding to different topics and concepts in C++. Each folder contains code examples, explanations, and exercises to help you understand and practice the material.
+For an introduction to C++ and to get started with the basics, please refer to the [C++ Basics folder](C++%20Basics/README.md).
+
+## Object-Oriented Programming (OOP)
+
+For learning about Object-Oriented Programming (OOP) in C++, please refer to the [OOP folder](OOP/README.md).
+
+# Reference Notes
+-[www.w3schools.com](https://www.w3schools.com/cpp/default.asp)
