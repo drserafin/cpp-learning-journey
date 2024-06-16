@@ -2,6 +2,9 @@
 
 Welcome to my C++ learning journey repository! This repository contains examples and explanations for learning C++ programming journey.
 
+![C++ Logo](images/C++ logo.png)
+
+
 ## Table of Contents
 
 1. [C++ Basics](#cpp-basics)
