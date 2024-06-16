@@ -18,3 +18,5 @@ For learning about Object-Oriented Programming (OOP) in C++, please refer to the
 
 # Reference Notes
 -[www.w3schools.com](https://www.w3schools.com/cpp/default.asp)
+
+![Bjarne Stroustrup](images/Bjarne-stroustrup_(cropped).jpg)
