@@ -2,7 +2,8 @@
 
 Welcome to my C++ learning journey repository! This repository contains examples and explanations for learning C++ programming journey.
 
-![C++ Logo](images/C++ logo.png)
+![C++ Logo](images/C++%20logo.png)
+
 
 
 ## Table of Contents
