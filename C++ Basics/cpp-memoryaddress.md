@@ -16,5 +16,4 @@ int main(){
     return 0;
 }
 ``````
-**NOTE: The memory address is in hexademical form (0x..). And why is it useufl to know memory address? Referecnes and Pointers are important in C++, because they give you the ability to manipulate the data in the comptuer's memory
--which can reduce the code and improve performance. These two features are one of the thigns that make C++ stand out from other programming languages**
+**NOTE: The memory address is in hexademical form (0x..). Why is it useful to know the memory address? References and Pointers are important in C++, because they give you the ability to manipulate the data in the comptuer's memory -which can reduce the code and improve performance. These two features are one of the thigns that make C++ stand out from other programming languages**
