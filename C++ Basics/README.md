@@ -4,7 +4,7 @@ This folder contains examples and explanations for learning the basics of C++ pr
 
 ## Table of Contents
 
-1. [cpp-home.md](C++%20Basics/cpp-home.md)
+1. [cpp-home.md](#cpp-home.md)
 2. [C++ Intro](#cpp-intro)
 3. [C++ Get Started](#cpp-get-started)
 4. [C++ Syntax](#cpp-syntax)
