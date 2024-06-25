@@ -1,2 +1,3 @@
-[nix]
-channel = "stable-23_11"
+
+
+run = "g++ editor-compiler.cpp -o editor-compiler && ./editor-compiler"

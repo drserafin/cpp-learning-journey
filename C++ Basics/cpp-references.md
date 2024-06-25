@@ -15,6 +15,28 @@ int main(){
     
     return 0;
 }
+```````
+
+To modify the orginal variable we would simple declare the reference variable without the & and from there we can change it to a different name.
+
+```cpp
+    #include<iostream>
+    #include<string>
+
+    int main(){
+
+        std::string Name = "Nancy";
+        std::string& otherName = Name;
+
+        std::cout << Name << std::endl;
+
+        otherName = "Serafin";
+
+        std::cout << otherName;
+
+
+        return 0;
+    }
 
 
 
