@@ -25,7 +25,8 @@ int main(){
 ``````
 Another Example:
 
-Here we have array named words. 'words' is an array where each eleemnt is a const char*, So word[0] points to the string "one", 'words[1]' points to the string "two", and so on. When you acacess an element like 'words[0]', your're accessing the pointer to the string "one".
+Array of Pointers
+In an array of pointers, each element is a pointer to a value. For example, an array of pointers to constant strings (const char*) is often used to handle multiple strings.
 
 ```cpp
 #include <iostream>
@@ -42,5 +43,15 @@ int main() {
 }
 
 ```````
+
+Explanation:
+const char* words[]: Declares words as an array where each element is a const char* (pointer to a constant character). Each const char* points to a string literal.
+words[0]: Points to the start of the string "one". When you use std::cout << words[0], it prints the string because std::cout is designed to handle const char* as C-strings and prints the entire string.
+Why No Explicit Dereferencing Needed in Arrays:
+Arrays of Pointers: When you print words[0], you’re printing a const char*. The std::cout handles const char* by treating it as a pointer to a C-string and prints the string it points to. You don’t need to explicitly dereference because std::cout knows how to process const char* for printing strings.
+Single Value Pointers: For pointers to single values like bool* or int*, std::cout does not automatically interpret the pointer as a value. You need to explicitly dereference the pointer (*ptr) to get the actual value stored at the address.
+Summary:
+For Arrays of Pointers (e.g., const char* words[]): std::cout can print strings directly from pointers because it knows how to handle const char* as a C-string.
+For Single-Value Pointers (e.g., bool* ptr): You must dereference the pointer (*ptr) to access and print the value it points to, as std::cout does not interpret the pointer as a value by default.
 
 
