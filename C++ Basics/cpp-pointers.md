@@ -52,7 +52,7 @@ words[0]: Points to the start of the string "one". When you use std::cout << wor
 Arrays of Pointers: When you print words[0], you’re printing a const char*. The std::cout handles const char* by treating it as a pointer to a C-string and prints the string it points to. You don’t need to explicitly dereference because std::cout knows how to process const char* for printing strings.
 Single Value Pointers: For pointers to single values like bool* or int*, std::cout does not automatically interpret the pointer as a value. You need to explicitly dereference the pointer (*ptr) to get the actual value stored at the address.
 
-##Summary:
+## Summary:
 For Arrays of Pointers (e.g., const char* words[]): std::cout can print strings directly from pointers because it knows how to handle const char* as a C-string.
 For Single-Value Pointers (e.g., bool* ptr): You must dereference the pointer (*ptr) to access and print the value it points to, as std::cout does not interpret the pointer as a value by default.
 
