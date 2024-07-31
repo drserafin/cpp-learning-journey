@@ -2,17 +2,18 @@
 
 A constructor in C++ is a special method that is automatically called when an object of a class is created.
 
-To create a constructor, use the sane name as the class, followed by parenthese `()`:
+To create a constructor, use the same name as the class, followed by parentheses `()`:
 
 ```cpp
-class MyClass{
+#include <iostream>
 
+class MyClass {
 public:
-  MyClass(){
-    std::cout << "Hello World"
-      }
-
+  MyClass() {
+    std::cout << "Hello World" << std::endl;
+  }
 };
+
 
 int main(){
   MyClass.object; //Create an object of MyClass (this will the constructor)
@@ -36,8 +37,7 @@ public:
     int year;
 
     // Constructor with parameters using initialization list
-    Car(const string& b, const string& m, int y) : brand(b), model(m), year(y) {}
-};
+Car::Car(const std::string& b, const std::string& m, int y) : brand(b), model(m), year(y) {}
 
 // Function to print details of a Car object
 void printCarDetails(const Car& car) {

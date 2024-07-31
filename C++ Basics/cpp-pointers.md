@@ -25,3 +25,14 @@ int main(){
   return 0;
 }
 ``````
+
+Recap:
+You declare a pointer using the * operator followed by the data type it points to. For example, int *ptr; declares a pointer named ptr that can store the memory address of an integer variable.
+
+## Extra Notes 
+
+Pointers can be initialized later, and can be reassigned to point different variables. It can also be null. 
+
+```cpp
+
+```````
