@@ -28,6 +28,30 @@ To start using C++, you need two things:
 
 With this in mind, an IDE (Integrated Development Environment) is often used to edit and compile the code. Popular IDEs include Code::Blocks, Eclipse, and Visual Studio.
 
+# Steps to Build and Run a Program
+
+1. Write Code:
+
+Create source code in a high-level programming language (e.g., C++, Java).
+
+2. Compile:
+
+The compiler translates the source code into machine code (object files).
+
+3. Link:
+
+The linker combines object files and libraries into a single executable file.
+
+4. Build:
+
+Additional steps like packaging resources, optimizing code, and creating the final executable are performed.
+
+5. Run:
+
+The operating system loads the executable into memory.
+The computer's processor executes the machine code instructions.
+
+
 Replit is also an amazing online IDE that supports various programming languages.
 
 You can also use the following online compilers to run code:
