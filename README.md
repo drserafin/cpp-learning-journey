@@ -51,6 +51,7 @@ Additional steps like packaging resources, optimizing code, and creating the fin
 The operating system loads the executable into memory.
 The computer's processor executes the machine code instructions.
 
+This process transforms human readable code into a runnable program on a computer.
 
 Replit is also an amazing online IDE that supports various programming languages.
 
