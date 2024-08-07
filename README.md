@@ -53,7 +53,7 @@ The computer's processor executes the machine code instructions.
 
 This process transforms human readable code into a runnable program on a computer.
 
-Replit is also an amazing online IDE that supports various programming languages.
+# Replit is also an amazing online IDE that supports various programming languages.
 
 You can also use the following online compilers to run code:
 * [Online C Compiler](https://www.onlinegdb.com/online_c_compiler)
