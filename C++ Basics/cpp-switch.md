@@ -39,3 +39,20 @@ When C++ reaches a break keyword, it breaks out of the switch block.
 This will stop the execution of more code and case testing inside the block.
 
 When a match is found, and the job is done, it's time for a break. There is no need for more testing.
+
+Syntax:  
+
+```cpp
+switch (expression) {
+  case value1:
+    // code to be executed if expression equals value1
+    break;
+  case value2:
+    // code to be executed if expression equals value2
+    break;
+  ...
+  default:
+    // code to be executed if expression does not match any value
+}
+``````
+
